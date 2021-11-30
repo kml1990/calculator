@@ -1,1 +1,3 @@
-export const arrayHelper = (array: string[]) => array.map((entry) => entry);
+import { Calculation } from '@components/calculator/useCalculator';
+
+export const toCalculationAsString = (calculation: Calculation) => [...calculation].join('');

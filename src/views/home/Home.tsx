@@ -1,9 +1,10 @@
-import Content from '@components/content/Content';
+import Calculator from '@components/calculator/Calculator';
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 const Home: React.FC = () => (
-  <div className="Home"><Content text="Home Page"><Link to="/about">About</Link></Content></div>
+  <div className="Home">
+    <Calculator />
+  </div>
 );
 
 export default Home;
